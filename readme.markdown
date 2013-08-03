@@ -1,5 +1,9 @@
 # Bootstrap Typeahead for Rails
 
+[![Gem Version](https://badge.fury.io/rb/bootstrap-typeahead-rails.png)](http://badge.fury.io/rb/bootstrap-typeahead-rails)
+
+[![endorse](https://api.coderwall.com/nerian/endorsecount.png)](https://coderwall.com/nerian)
+
 bootstrap-typeahead-rails project integrates the official typeahead plugin with Rails 3 assets pipeline.
 
 http://github.com/Nerian/bootstrap-typeahead-rails
