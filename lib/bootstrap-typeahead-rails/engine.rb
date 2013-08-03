@@ -1,4 +1,4 @@
-bomodule BootstrapTypeaheadRails
+module BootstrapTypeaheadRails
   module Rails
     class Engine < ::Rails::Engine
     end

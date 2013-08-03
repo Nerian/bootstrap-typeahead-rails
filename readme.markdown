@@ -24,12 +24,6 @@ and run bundle install.
 
 ## Configuration
 
-Add this line to app/assets/stylesheets/application.css
-
-``` css
- *= require bootstrap-typeahead-rails
-```
-
 Add this line to app/assets/javascripts/application.js
 
 ``` javascript
