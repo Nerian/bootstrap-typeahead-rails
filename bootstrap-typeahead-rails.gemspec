@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
 
   gem.name          = "bootstrap-typeahead-rails"
   gem.require_paths = ["lib"]
-  gem.files         = `git ls-files`.split("\n")
+  gem.files         = `git ls-files`.split("\n").reject { |i| i=~/testapp/}
   gem.version       = BootstrapTypeaheadRails::Rails::VERSION
 
   gem.add_dependency "railties", ">= 3.0"
