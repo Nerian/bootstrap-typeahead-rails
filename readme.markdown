@@ -30,6 +30,12 @@ Add this line to app/assets/javascripts/application.js
 //= require bootstrap-typeahead-rails
 ```
 
+The official Typeahead do not include any styling for it. Nonetheless, you can add this line to app/assets/stylesheets/application.css and you will get a nice one. Or don't, and implement your own – instructions on https://github.com/twitter/typeahead.js/#look-and-feel.
+
+``` javascript
+*= require bootstrap-typeahead-rails
+```
+
 ## Using bootstrap-typeahead-rails
 
 See https://github.com/twitter/typeahead.js/#usage
