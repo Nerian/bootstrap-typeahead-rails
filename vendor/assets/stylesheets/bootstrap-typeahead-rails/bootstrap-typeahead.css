@@ -28,7 +28,7 @@
   padding: 3px 20px;
 }
 
-.tt-suggestion.tt-is-under-cursor {
+.tt-suggestion.tt-cursor {
   color: #fff;
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
@@ -37,10 +37,11 @@
   background-image: -o-linear-gradient(top, #0088cc, #0077b3);
   background-image: linear-gradient(to bottom, #0088cc, #0077b3);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0)
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+  cursor: pointer;
 }
 
-.tt-suggestion.tt-is-under-cursor a {
+.tt-suggestion.tt-cursor a {
   color: #fff;
 }
 

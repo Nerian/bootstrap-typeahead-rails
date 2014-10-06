@@ -11,21 +11,12 @@ task :update do
     system("git clone git@github.com:twitter/typeahead.js.git bootstrap-typeahead-src")
   end
 
-  if Dir.exist?('bootstrap-typeahead-css-src')
-    system("cd bootstrap-typeahead-css-src && git pull && cd ..")
-  else
-    system("git clone git@github.com:jharding/typeahead.js-bootstrap.css.git bootstrap-typeahead-css-src")
-  end
-
-  system("cp bootstrap-typeahead-src/dist/typeahead.js vendor/assets/javascripts/bootstrap-typeahead-rails/bootstrap-typeahead.js")
-
-  system("cp bootstrap-typeahead-css-src/typeahead.js-bootstrap.css vendor/assets/stylesheets/bootstrap-typeahead-rails/bootstrap-typeahead.css")
-  # system("cp bootstrap-typeahead-css-src/typeahead.js-bootstrap.less vendor/assets/stylesheets/bootstrap-typeahead-rails/bootstrap-typeahead.less")
+  system("cp bootstrap-typeahead-src/dist/typeahead.bundle.js vendor/assets/javascripts/bootstrap-typeahead-rails/bootstrap-typeahead.js")
 
   system("git status")
 
   puts "\n"
-  puts "bootstrap-typeahead version:       #{JSON.parse(File.read('./bootstrap-typeahead-src/component.json'))['version']}"
+  puts "bootstrap-typeahead version:       #{JSON.parse(File.read('./bootstrap-typeahead-src/bower.json'))['version']}"
   puts "bootstrap-typeahead-rails version: #{BootstrapTypeaheadRails::Rails::VERSION}"
 end
 

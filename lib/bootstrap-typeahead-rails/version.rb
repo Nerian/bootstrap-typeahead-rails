@@ -1,5 +1,5 @@
 module BootstrapTypeaheadRails
   module Rails
-    VERSION = "0.9.3.3"
+    VERSION = "0.10.5.1"
   end
 end
