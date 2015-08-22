@@ -10,6 +10,8 @@
  *
  *= require_self
  *= require_tree .
- *= require bootstrap
  *= require bootstrap-typeahead-rails
  */
+
+ @import "bootstrap";
+ @import "bootstrap/theme"
