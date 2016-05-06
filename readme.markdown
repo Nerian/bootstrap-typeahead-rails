@@ -4,18 +4,17 @@
 
 [![endorse](https://api.coderwall.com/nerian/endorsecount.png)](https://coderwall.com/nerian)
 
-----------
-This gem is no longer being updated. Bootstrap typeahead is no longer mantained. I recommend that you switch to Twitter typeahead. Checkout this other two projects that work together to provide the same functinality:
-
-https://github.com/yourabi/twitter-typeahead-rails
-https://github.com/bassjobsen/typeahead.js-bootstrap-css
-----------
-
-bootstrap-typeahead-rails project integrates the official typeahead plugin with Rails 3 assets pipeline.
-
-http://github.com/Nerian/bootstrap-typeahead-rails
-
-https://github.com/twitter/typeahead.js/
+> This gem is no longer being updated. Bootstrap typeahead is no longer mantained. I recommend that you switch to Twitter typeahead. 
+> Checkout this other two projects that work together to provide the same functinality:
+>
+> https://github.com/yourabi/twitter-typeahead-rails
+> https://github.com/bassjobsen/typeahead.js-bootstrap-css
+>
+> bootstrap-typeahead-rails project integrates the official typeahead plugin with Rails 3 assets pipeline.
+>
+> * http://github.com/Nerian/bootstrap-typeahead-rails
+>
+> * https://github.com/twitter/typeahead.js/
 
 ## Rails > 3.1
 Include bootstrap-typeahead-rails in Gemfile;
